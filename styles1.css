@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+    background: grey;
+    font-size: 50px;
+}
+
+p {
+    color: navy;
+    font-size: 20px;
+}
+
+button {
+    background-color: firebrick;
+    border-color: gray;
+}

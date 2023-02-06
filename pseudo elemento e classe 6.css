@@ -1,0 +1,71 @@
+/* a pseudo classe sempre se inicia 
+com (a::) assim vc pode escolhere 
+entre muitos como , before, after, 
+visited....*/
+/*
+-:active--> quando elemento esta ativo, ou seja sendo pressionado.
+-:visited--> seleciona o link que foi vistado 
+-:hover--> (o mais utilizado)quando o mouse passa em cima do elemento
+-:checked--> usado em radio, checkbox, select
+-:disabled--> elemento desabilitado , button , imput
+-:enabled--> elemento está habilitado
+-:focus--> é aplicada quando um elemento recebe o foco, o que 
+pode ocorrer quando um usuario seleciona o elemento
+-:read-only-->seleciona input ou textarea que são apenas leituras
+-:empty--> elemento que não tem filho.
+
+-:first-child--> primeiro filho, ex:primeira li de uma ul , 
+priemira span de uma div
+-:first-of-type--> primeiro elemento de seu tipo entre os filhos 
+de seu elemento pai 
+-:last-child--> ultimo filho 
+-:last-of-type--> ultimo elemento de seu tipo entre os filhos 
+de seu elemento pai
+-:not()--> estiliza os elementos exceto o que está dentro do ()
+-:nth-child()--> seleciona o elemento basiado na sua posicão 
+exemplo: :nth-child(3)
+-:nth-last-child()--> serleciona os elementos baseados na sua posição
+contando de tras para frente .
+
+As pseudos classe servem para dar um pouco mais de dinamismo a pagina!
+*/
+
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    border: 0,5px solid royalblue;
+    color:rgb(75, 54, 54);
+    background-color: bisque;
+    cursor: grab;
+
+}
+
+input::placeholder{
+    color: chocolate;
+
+}
+
+p{
+    color: blue;
+}
+p::first-line {
+    color: rgb(226, 43, 46);
+
+}
+a::before{
+       content:"😏";
+
+}
+
+a::after{
+    content:" 🚀" ;
+}
+
+
+
+

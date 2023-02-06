@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+.container{
+    height: calc(10vh - 5px);
+    width: calc(100vh - 10px);
+    background: #ff0000;
+
+}
+/*é otimo para responsividade*/

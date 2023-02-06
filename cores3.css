@@ -1,0 +1,28 @@
+/* color
+Podemos usar  como (rgb) é uma sigla para as cores 
+red green e blue. a intensidade delas vai de 0 a 255.
+portanto se eu quizer a cor só vermelha tenho que digitar
+ex: 
+h1{
+    background:rgb(255,0,0) 
+    ou background: rgb(200,50,70) assim, 
+    brincando com as cores. 
+}
+Também posso usar as cores de uma outra forma
+como 
+hexadecimal: ele vai do 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F.
+A base hexadecimal é de 16. mantendo assim a mesmas
+cores do rgb,por exemplo se qusero uma cor só verde
+usando agora a hashtag.Sendo o FF potencializa a cor
+e o zero nada de cor. porem o preto é tudo zero exemplo
+#000000  e a cor branca é representada por #ffffff. 
+
+h1{
+    background:#00ff00
+    ou background:#ff0000 . 
+}
+
+-w3schools que é o css rgb colors
+-color.adobe.com é um site para brincar com as cores.
+-temos a extenção no google chromos tbm. 
+*/

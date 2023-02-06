@@ -1,0 +1,33 @@
+/* SELETOR CSS :É A FORMA QUE IRÁ LINKAR O HTML E O CSS */
+/* -TEMOS O SELETOR PELAS TAGS, QUE FOI O QUE FIZEMOS 
+EM STILES. */
+/* -TEMOS O SELETOR POR ASTERISCO.( O ASTERISCO  
+SIGNIFICA TUDO, OU TODA A PAGINA  */
+/* -SELETORES DE CLASSE, SÃO COMO CEP,RUA...VARIAS PESSOAS 
+PODEM USAR */
+/* -SELETOR ID É ALGO ESPECIFICO COMO CPF, NOME, RG... 
+não demos usar dois ID iguais*/
+/* temos sempre q usar o hastag "#" e abrir chaves{} 
+quando usarmos o ID*/
+/* quando usarmos o seletor classe, temos que usar
+ o ponto "."   se eu usar a class, tenho que nominar 
+ as classes no htm */
+
+#titulo{
+    color: brown;
+    font-size: 83px;
+}
+
+#paragrafo {
+    color: burlywood;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#botão1{
+    background: greenyellow;
+}
+#botão2{
+    background-color: aquamarine;
+}
+

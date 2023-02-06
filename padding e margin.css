@@ -1,0 +1,28 @@
+/*padding e margin*/
+.box {
+width: 50px;
+height: 50px;
+background: #ff1493;
+
+/*para estilizar os box de tamanho, usamos o margin e o padding.
+- o margin serve para dar o espaçamento externo, separando as caixas
+- o padding serve para dar o tamanho da caixa. */
+
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom:30px;
+padding-left: 50px;
+
+margin-top: 50px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 50px;
+/*não precisa usar todos , só o que precisar*/
+/*atalho do relogio : podendo usar margin e colocar os numeros
+top, right, bottom e left consequentemente. se usar apenas 
+3 numeros o primeiro será o top, o do meio será o right e o left
+e o ultimo será o bottom. Porém se os tamanhos forem inguais para 
+os right e left, top e bottom , pode usar apenas dois números. */
+
+
+}

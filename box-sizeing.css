@@ -1,0 +1,13 @@
+/*Box-sizing*/
+/*temos o content-box e o border-box.
+o content-box: a sua caixa cresce devido as coisas acresentada, com 
+borda,e etc..
+o Border-box: ele mantem o tamanho do width e o height.
+Portanto o content box poderá perder o controle do tamanho.
+e o border box ele é 90% mais usado , e normalmente se inicia  
+usando o asterisco.
+exemplo*/
+*{ box-sizing: border-box ;
+
+}
+

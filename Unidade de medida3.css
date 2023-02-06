@@ -1,0 +1,39 @@
+/* UNIDADES DE MEDIDAS:
+
+-->ABSOLUTAS
+    -px (pixels): 1 centezemo de podelgada (1/100)
+    -in : (inches/plegadas):não é muito usado.
+    -cm/mm:não é muito usado (mm/cm)
+
+--> RELATIVAS
+São sempre relativas a alguém:
+-% calcula o tamanho relativo ao elemento pai.
+-vw (view width) 1vw é 1% da alargura da janela do navegador
+-vh(view height) 1vh é 1% da altura da janela do navegador
+-em é uma unidade relativa ao elemento raiz.
+Quando quizermos padronizar para todos os tipos de 
+aparelho, temos que usar a forma VW ou VH adaptando
+ao tamanho da tela. 
+-em siginifica : enfemeral unit- unidade transitoria
+-rem significa:root efemeral unit- raiz unidade transitoria
+sempre vai buscar a raiz , que no caso é a vó, então
+vai se basear sempre na raiz. 
+*/
+
+.vó{
+    font-size: 16px;
+}
+
+.pai{
+  width: 50vw;
+  height: 50vw;
+  background-color:#0000ff;
+  font-size: 5rem;
+}
+
+.filho{
+width: 50%;
+height: 50%;
+background-color: #ff0000;
+font-size: 5rem;
+}

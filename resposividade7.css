@@ -1,0 +1,40 @@
+/*Responsividade
+
+All: para todos os dispositivos 
+Braille:para dispositivos táteis
+Esbossed: para dispositivo que imprime em braille
+Haldtheld: para dispositivos portateis ,geralmente com telas pequequenas e banda limitada.
+Print: para impressão em papel
+Projection: para apresentações como pps
+Screen:para monitores de dispositicos com telas coloridas e resolução adequada
+speech: para sintetizadores de voz. As CSS2 tem uma especificação de css.
+
+orientação:
+portrait - altura maior que a largura
+landscape- largura maior que a largura
+*/
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background: blue;
+
+}
+
+@media screen and ( max-width:600px) and (orientation:landscape) {
+    div{
+        background: red;
+        height: 200px;
+        width: 200px;
+
+    }
+
+}

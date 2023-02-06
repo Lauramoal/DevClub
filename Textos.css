@@ -1,0 +1,27 @@
+
+
+h1 { 
+colo: red; /* coloração das fonte*/
+font-size: 38px; /*tamanho da fonte*/
+font-weight: 30px;/* espessura da fonte */
+
+/* ao ir no google fontes teremos várias opçoes de fontes,
+para utilizar , escolhemos qual queremos importar , sendo que 
+temos 2 jeitos , no proprio site expica. */
+
+font-family:'Times New Roman', Times, serif; /*  */
+font-style: italic; /* para dar uma estilizada na fonte*/
+line-height: 30px; /*espaço entre as linhas*/
+letter-spacing: 10px; /*espaçamento entre as letras*/
+word-spacing: 5px; /* espaçamento entre as palavras*/
+text-align: justify; /* se quer o o texto pra direita, central,justificado.. */
+text-transform:uppercase ;/* deixar letras maiuscula ou minuscula, ou uma
+palavra, ou uma letra */
+text-decoration: underline; /*se quer deixar linhas em baixo, meio*/
+text-shadow:10px 5px 10px #ff0000 ; /*são 4 configurações ,
+1-tanto da sombra na horintal
+2 tanto na vertical,
+3 quao esfumaçada a sombra
+4 coloração da sombra */
+
+}
